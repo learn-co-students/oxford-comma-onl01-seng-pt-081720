@@ -8,7 +8,3 @@ def oxford_comma(array)
     array.join(", ") + ", and " + new_array
   end
 end
-
-#1 convert an array into a string
-#2 string = array.join(", ")
-# string << "and"
