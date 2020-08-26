@@ -13,6 +13,6 @@ def oxford_comma(array)
         array.join(" and ")
     else array.size >= 3
         string_array = array.pop
-        array.join(", ") << string_array.unshift(", and ")
+        array.join(", ") << string_array.insert(0, ", and ")
     end
 end
