@@ -2,7 +2,6 @@ def oxford_comma(array)
   
   if array.length == 2
     new_array = array.join(" and ")
-  
   elsif array.length == 3
     temp_holder = array[2]
     array.pop
