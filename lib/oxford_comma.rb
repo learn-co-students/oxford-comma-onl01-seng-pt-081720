@@ -8,14 +8,14 @@ def oxford_comma(array)
     temp_holder = array[2]
     array.pop
     new_array = array.join(", ")
-    new_array << ", and #{temp_holder}"
+    new_array.push(", and #{temp_holder}")
   end
   
   elsif array.length > 3
     temp_holder = array[-1]
     array.pop
     new_array = array.join(", ")
-    new_array << ", and #{temp_holder}"
+    new_array.push(", and #{temp_holder}")
   end
   
   else
